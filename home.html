@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="home_style.css" type="text/css" rel="stylesheet">
+        <script src="home_js.js"></script>
+        <title>Home</title>
+    </head>
+    <body> 
+        <h1 id="title"></h1>
+        <form id="form">
+            <label for="username">Username: </label>
+            <br>
+            <input type="text" id="username" name="username">
+            <br>
+            <label for="password">Password: </label> 
+            <br>
+            <input type="text" id="password" name="password">
+            <br>
+            <input type="button" name="button" value="Submit" onclick="validate(this.form)">
+        </form>
+        <p id="wrongInput" hidden>Wrong Input!</p>
+        <p id="Monday" hidden></p>
+        <p id="Tuesday" hidden></p>
+        <p id="Wednesday" hidden></p>
+        <p id="Thursday" hidden></p>
+        <p id="Friday" hidden></p>
+        <p id="Saturday" hidden></p>
+        <p id="Sunday" hidden></p>
+        <p id="testing" hidden></p>
+        <button id="class_schedule" onclick="window.location.href='class_schedule.html';" hidden>View Class Schedule</button>
+    </body>
+</html>
