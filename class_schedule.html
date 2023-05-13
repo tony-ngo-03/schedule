@@ -14,6 +14,29 @@
             var date = new Date;
             document.getElementById("title").innerHTML = "Year of " + date.getFullYear();
         </script>
+        <h3 id="class1" hidden>Test</h3>
+        <h3 id="class2" hidden>Test</h3>
+        <h3 id="class3" hidden>Test</h3>
+        <h3 id="class4" hidden>Test</h3>
+
+        <form id="addClassForm">
+            <label for="class1">Class Name 1: </label>
+            <br>
+            <input type="text" id="class1input" name="class1">
+            <br>
+            <label for="class2">Class Name 2: </label>
+            <br>
+            <input type="text" id="class2input" name="class2">
+            <br>
+            <label for="class3">Class Name 3: </label>
+            <br>
+            <input type="text" id="class3input" name="class3">
+            <br>
+            <label for="class4">Class Name 4: </label>
+            <br>
+            <input type="text" id="class4input" name="class4">
+            <input type="button" name="button" value="Submit" onclick="addClasses(this.form)">
+        </form>
 
         
     </body>
